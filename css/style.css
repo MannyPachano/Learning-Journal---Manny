@@ -78,6 +78,7 @@ nav ul {
 .hero-section {
     background-image: url("/images/article-image-hero.png");
     background-size: cover;
+    background-position: center;
     color: white;
     padding: 7em 1.2em 2em;
 }
