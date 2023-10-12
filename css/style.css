@@ -130,13 +130,25 @@ nav ul {
     margin-top: 0;
 }
 
-.view-more {
+.view-more-container {
     text-align: center;
     margin-bottom: 3em;
 }
 
-.view-more a {
-    color: black;
+.view-more-btn {
+    color: #090909;
+    /* font-weight: bold; */
+    background-color: #fff;
+    padding: .5em 1em;
+    border-radius: .4em;
+    border: solid 1px #090909;
+}
+
+.view-more-btn:hover {
+    font-weight: bold;
+    border: solid 1px #090909;
+    box-shadow: 0px 2px 4px #3c3c3c;
+    
 }
 
 /* MEDIA QUERIES */
